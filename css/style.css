@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:#141414 ;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+}
+
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6%;
+    margin-top: 10px;
+}
+
+.img{
+   width: 140px;
+   height: 60px;  
+   filter: brightness(150%);
+   filter: drop-shadow(2px 5px 2px rgb(49, 49, 49));
+   filter: saturate(7); 
+}
+
+#persons{
+   margin-top: 10%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;  
+   flex-wrap: wrap; 
+}
+
+#persons div{
+    margin-right: 20px;
+}
+
+#persons h1{
+    color: rgb(226, 223, 223);
+    font-size:4rem;
+    margin-bottom: 30px;
+    font-weight: 200;
+}
+
+.profiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 50%;
+}
+
+.profiles div img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: contain;
+
+}
+
+
+#profile1{
+    height: 12rem;
+    width: 12rem;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+
+#profile1 img:hover{
+    border: 2px solid white;
+    opacity: 0.8;
+}
+
+#profile2{
+    height: 12rem;
+    width: 12rem;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#profile2 img:hover{
+    border: 2px solid white;
+    opacity: 0.8;
+}
+
+#addprofile {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ cursor: pointer;
+ height: 12rem;
+ width: 12rem;
+}
+
+#addprofile:hover{
+    border: 2px solid white;
+    transition: 0.2s;
+}
+
+
+#circle {
+    margin-top: 10px;
+    height: 80px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(139, 139, 139);
+}
+
+div #circle{
+    margin-left: 15px;
+}
+
+
+
+#addprofile p{
+    margin-top: 1rem;
+    color: rgb(139, 139, 139);
+    font-weight: bolder;
+    font-size: 16pt;
+    cursor: pointer;
+}
+
+#addprofile i{
+    color:#141414;
+    font-size: 35pt;
+}
+
+#menage{ 
+  text-align: center;
+  margin-top: 10%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+#menage_profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 25rem;
+    border: 2px solid rgb(139, 139, 139);
+    color:rgb(139, 139, 139) ;
+    text-align: center;  
+    font-size: 10pt;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+#menage_profile:hover{
+    border: 2px solid white;   
+}
+
+
+@media (max-width: 919.98px) {
+	#persons h1{
+        display: flex;
+        flex-wrap: nowrap;
+        color: rgb(226, 223, 223);
+        font-size:2.5rem;
+        margin-bottom: 30px;
+        font-weight: 200;
+    }
+
+    .profiles div{
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+

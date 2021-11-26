@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Netflix</title>
+
+        <!--Icon navegador-->
+        <link rel="icon" href="images/iconn.png">
+
+        <!--Link FontAwesome-->
+        <script src="https://kit.fontawesome.com/51b316c87d.js" crossorigin="anonymous"></script>
+        
+        <!--Link Css-->
+        <link rel="stylesheet" href="css/styel_login.css">
+
+    </head>
+
+    <body>
+        <div class="container">
+            <div>
+                <div id="wrapper">
+                    <img src="images/fundologin.png" alt="filme_fundos">
+                </div>
+    
+                <header id="logo">
+                    <img src="images/logo.png" alt="LogoNetflix" class="img">
+                </header>
+            </div>
+
+            <section id="banner">
+                <form action="" method="POST">
+                    <div class="title">
+                        <h1>Login</h1>
+                        <hr>
+                    </div>
+
+                    <div id="fields">
+                        <input type="email" name="email" id="email" placeholder="Digite seu email">
+                        <input type="password" id="senha" name="senha" placeholder="Senha">
+                        <i class="fas fa-eye-slash" id="password_unvisible" style="color: white;"></i> <!--Ao clicar troca pro de baixo e muda o type para text-->
+                        <i class="fas fa-eye" id="password_visible" ></i> <!--Ao clicar muda pro de cima e troca o type para password -->
+                    </div>
+
+                    <div id="button">
+                         <button type="button"><a href="browse.html">Entrar</a></button>
+                    </div>
+
+                    <div id="checkbox">
+                        <div>
+                            <input type="checkbox" id="caixa">
+                        <label for="caixa">Lembrar senha</label>
+                        </div>
+                        <a href="">precisa de ajuda?</a>
+                    </div>
+
+                    <div id="newCliente">
+                        <p>Novo por aqui?</p>
+                        <a href="">Assine agora</a>
+                    </div>
+                </form>
+            </section>
+    
+        </div> <!--Fechameto container-->
+        
+
+        <script src="scripts/login.js"></script>
+    </body>
+
+</html>
